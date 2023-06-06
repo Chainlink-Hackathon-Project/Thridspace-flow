@@ -1,3 +1,4 @@
+"use client"
 import Logo from "@/components/Ui/Logo";
 import Head from "next/head";
 import Link from "next/link";
