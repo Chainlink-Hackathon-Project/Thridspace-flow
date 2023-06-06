@@ -11,7 +11,7 @@ const Modal = ({
   onClose,
 
   children,
-}: any) => {
+}: Props) => {
   if (!isVisible) return null;
 
   const handleClose = (e: any) => {
