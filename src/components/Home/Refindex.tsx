@@ -2,7 +2,7 @@ import Logo from "@/components/Ui/Logo";
 import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
-import Modal from "../Ui/Modal";
+// import Modal from "../Ui/Modal";
 import { BsArrowUpRight, BsGithub } from "react-icons/bs";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 
@@ -72,7 +72,7 @@ const Home = (props: Props) => {
           </div>
 
           {/* GitHub SignUp Modal */}
-          <div id="sigUpModal">
+          {/* <div id="sigUpModal">
             <Modal isVisible={showModal} onClose={() => setShowModal(false)}>
               <div className="mx-auto items-center text-center text-white ">
                 <h2 className=" font-bold text-3xl text-center font-nexa mt-10">
@@ -99,7 +99,7 @@ const Home = (props: Props) => {
                 </div>
               </div>
             </Modal>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
